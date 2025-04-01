@@ -75,7 +75,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("IMDB Sentiment Analysis with LSTM/GRU 🎭")
+st.title("Sentiment Analysis with LSTM 🎭")
 user_input = st.text_area("Enter a review:", "")
 
 if st.button("Analyze"):
